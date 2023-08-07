@@ -8,6 +8,6 @@ services:
     ports:
       - "8000"
     volumes:
-      - "./public:/home/node/app/public"
-      - "./config.conf:/home/node/app/config.conf"
+      - "/home/node/app/public"
+      - "/home/node/app"
     restart: unless-stopped
